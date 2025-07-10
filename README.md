@@ -9,6 +9,8 @@ This is a simple Streamlit app that lets you generate **Mermaid.js diagrams** fr
 - Export diagrams as **SVG** or **PNG**
 - Fully **offline** and **private**
 
+You can view and copy the generated Mermaid code to reuse it in your markdown files, wikis, or documentation tools that support Mermaid syntax.
+
 ## Known Issues
 The app relies on the LLM to generate syntactically correct Mermaid code. Occasionally, the model may return invalid syntax, especially for complex or ambiguous prompts. If the diagram doesn't render, try simplifying or rephrasing your input.
 
