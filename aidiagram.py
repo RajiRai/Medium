@@ -88,7 +88,8 @@ if st.button("Generate Diagram"):
         llm_response = generate_mermaid(prompt)
         mermaid_code = extract_mermaid_code(llm_response)
         mermaid_code = mermaid_code.strip()
-
+    st.subheader("Generated Mermaid Code")
+    st.code(mermaid_code, language="mermaid")
     st.subheader("Rendered Diagram:")
     st.components.v1.html(f"""
         <div class="mermaid">
